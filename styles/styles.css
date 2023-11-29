@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@700&family=Roboto+Slab:wght@300&display=swap');
+body {margin:0;height:2000px;font-size: 22px;}
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+  
+.icon-bar a:hover {
+    background-color: #000;
+}
+.github{
+    background: #1d2020;
+    color: white;
+}
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+.instagram{
+    background-color: #346eeb;
+    color: white;
+}
+.content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header{
+    background-color: #38E4AE;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+nav{
+    display: grid;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color: #607466;
+    text-decoration: none;
+    font-family: "Tahoma", "Times New Roman", sans-serif;
+    padding: 25px
+}
+.logo{
+    width: 180px;
+}
+.non-im1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 70px;
+    width: 100%;
+}
+.im2{
+    grid-column: 2/3;
+    margin-left: 500px;
+}
+.non-im2{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-left: 500px;
+    margin-top: 70px;
+}
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.main_intro{
+    grid-column: 2/5;
+    padding: 50px;
+    margin: 50px;
+    background-color: #7BD389;
+}
+.all-social{
+    grid-column: 2/5;
+    padding: 10px;
+    margin: 50px;
+    background-color: #7BD389;
+}
+#jg{
+    width: 30%;
+    float: left;
+    margin: 10px;
+}
+.intro-text{
+    text-align: justify;
+    color: #1d2020;
+    font-size: 30px;
+    margin: 5px;
+}
+#code{
+    width: 30%;
+    float: right;
+    margin: 10px;
+}
+.social-icon{
+    width: 10%;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    color: #1d2020;
+}
+ul img{
+    margin: 10px;
+    vertical-align: middle;
+}
+ul a{
+    text-decoration: none;
+}
+footer{
+    background-color: #38E4AE;
+    color: #607466;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    text-align: center;
+    color: #607466;
+    text-decoration: none;
+    font-family: "Tahoma", "Times New Roman", sans-serif;
+}
+footer img{
+    width: 180px;
+}
+
+/* About Me */
