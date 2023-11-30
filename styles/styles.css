@@ -125,6 +125,9 @@ ul img{
 ul a{
     text-decoration: none;
 }
+ul li{
+    text-align: left;
+}
 footer{
     background-color: #38E4AE;
     color: #607466;
