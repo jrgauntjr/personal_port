@@ -176,6 +176,8 @@ footer img{
     color: #1d2020;
     text-align: center;
     font-family: "Tahoma", "Times New Roman", sans-serif;
+    font-size: 52px;
+    width: 80%;
 }
 #g2{
     float: right;
