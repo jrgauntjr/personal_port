@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@700&family=Roboto+Slab:wght@300&display=swap');
-body {margin:0;height:2000px;font-size: 22px;}
+body {margin:0;height:1600px;font-size: 22px;}
 
 .icon-bar {
     position: fixed;
@@ -148,3 +148,48 @@ footer img{
 }
 
 /* About Me */
+.aboutme{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.title{
+    grid-column: 2/4;
+    background-color: #7BD389;
+    margin: 50px 0;
+    height: 200px;
+}
+.title_text{
+    color: #1d2020;
+    text-align: center;
+    font-size: 40px;
+    width: 80%;
+}
+.game{
+    width: 20%;
+    vertical-align: middle;
+}
+#g1{
+    float: left;
+    margin: 10px;
+}
+.title p{
+    color: #1d2020;
+    text-align: center;
+    font-family: "Tahoma", "Times New Roman", sans-serif;
+}
+#g2{
+    float: right;
+    margin: 10px;
+    position: relative;
+    top: -170px;
+}
+.about{
+    grid-column: 2/4;
+    background-color: #7BD389;
+}
+.about h2, .about p{
+    color: #1d2020;
+    text-align: center;
+    font-family: "Tahoma", "Times New Roman", sans-serif;
+    margin: 35px;
+}
