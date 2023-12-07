@@ -195,3 +195,69 @@ footer img{
     font-family: "Tahoma", "Times New Roman", sans-serif;
     margin: 35px;
 }
+/*Portfolio*/
+.port{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.port_title{
+    grid-column: 3/6;
+    background-color: #7BD389;
+    margin: 50px 0;
+}
+.port_title p{
+    text-align: center;
+    font-family: "Tahoma", "Times New Roman", sans-serif;
+    font-size: 55px;
+    color: #1d2020;
+}
+.port_title img{
+    position: relative;
+    padding: 10px;
+    left: 170px;
+    top: 30px;
+}
+.achievement{
+    grid-column: 2/7;
+    background-color: #7BD389;
+    margin: 50px 0;
+}
+.port_section{
+    font-family: "Tahoma", "Times New Roman", sans-serif;
+    font-size: 45px;
+    color: #1d2020;
+    padding: 20px;
+    text-decoration: underline;
+}
+.port_sec_title{
+    font-family: "Tahoma", "Times New Roman", sans-serif;
+    font-size: 35px;
+    color: #1d2020;
+    padding: 20px;
+}
+.achievement ul{
+    font-family: "Tahoma", "Times New Roman", sans-serif;
+    font-size: 25px;
+    color: #1d2020;
+    padding-left: 20px;
+}
+#download{
+    grid-column: 2/7;
+    background-color: #7BD389;
+    margin: 50px 0;
+    height: 200px;
+    width: 80%;
+}
+#download p{
+    font-family: "Tahoma", "Times New Roman", sans-serif;
+    font-size: 45px;
+    color: #1d2020;
+    padding: 20px;
+    text-align: center;
+}
+#download img{
+    float: right;
+    position: relative;
+    top: -200px;
+    left: 200px;
+}
