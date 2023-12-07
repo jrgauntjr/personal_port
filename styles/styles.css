@@ -216,6 +216,7 @@ footer img{
     padding: 10px;
     left: 170px;
     top: 30px;
+    width: 50%;
 }
 .achievement{
     grid-column: 2/7;
